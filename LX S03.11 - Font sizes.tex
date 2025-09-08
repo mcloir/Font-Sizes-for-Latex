@@ -1,0 +1,33 @@
+\documentclass{article}
+\usepackage{lipsum}
+
+\title{fontstyle}
+\author{myText Account}
+\date{July, 2023}
+
+\begin{document}
+
+\maketitle
+\section{Introduction}
+\lipsum[7]
+
+\vspace{2 in} % cria espaços verticais
+
+\clearpage % cria quebra de página para o que está abaixo.
+
+\noindent \tiny this is the tiny size \\
+\scriptsize this is the scriptsize \\
+\footnotesize this is the footnotesize \\
+\small this is the small size \\
+\underline{\normalsize this is the normal size} \\
+\large this is the large size \\
+\Large this is the Large size \\
+\huge this is the huge size \\
+\Huge this is the Huge size \\ % this command affects every text under this point. 
+
+{\tiny this is a test text} \\ % o uso das {} limita a extensão da formatação de tamanho.
+This is what happens if we are not careful
+
+\normalsize This is what happens if we are careful
+
+\end{document}
